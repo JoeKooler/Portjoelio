@@ -6,6 +6,12 @@ module.exports = {
         '96': '24rem',
         '128': '32rem',
       },
+      inset: {
+        '0': 0,
+        auto: 'auto',
+        '1/2': '50%',
+      }
+
     },
   },
   variants: {},
