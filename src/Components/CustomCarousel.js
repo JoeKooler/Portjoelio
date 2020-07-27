@@ -24,7 +24,7 @@ export default function CustomCarousel({ images }) {
     }
 
     return (
-        <div className="absolute top-0 flex items-center w-full h-100 box-border m-0 p-0 overflow-hidden shadow-xl z-40">
+        <div className="absolute top-0 flex items-center w-full h-128 box-border m-0 p-0 overflow-hidden shadow-xl z-40">
             {carouselImages.map((item, index) => {
                 return (
                     <div key={index} className="min-w-full h-128 duration-500" style={{ transform: `translateX(${xAxis}%)` }}>

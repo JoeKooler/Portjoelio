@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className="flex items-center flex-row bg-transparent p-6">
+            <nav className="absolute flex items-center flex-row bg-transparent p-6">
                 <NavLink className="text-white text-2xl pr-4 z-50 " to="/">Joe's Portfolio</NavLink>
                 <button className="text-white pr-4 z-50 text-lg">
                     <div onMouseEnter={() => { setIsOpen(true) }}
