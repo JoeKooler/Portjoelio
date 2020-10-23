@@ -5,14 +5,13 @@ export default function AboutUs() {
   const stackList = [
     "HTML CSS and JavaScript",
     "jQuery",
-    "PHP",
     "ReactJS , React Native",
-    "VueJS",
     "NodeJS",
     "Java",
     "C#",
     "Unity",
   ];
+
   return (
     <div>
       <div className="spacer h-20 bg-gray-800"></div>

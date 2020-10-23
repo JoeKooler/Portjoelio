@@ -11,9 +11,7 @@ export default function Homepage() {
   const stackList = [
     "HTML CSS and JavaScript",
     "jQuery",
-    "PHP",
     "ReactJS , React Native",
-    "VueJS",
     "NodeJS",
     "Java",
     "C#",
@@ -41,18 +39,21 @@ export default function Homepage() {
       name: "EPIC",
       details:
         'The so called "Excellent Prototype Infrared Controller" is one of our smarthome remote prototype that mostly based on the infrared remote system that use to control most of the device using a firebase realtime database for a webservice and a native Java Android for a fast User Interface',
+      link: "https://github.com/JoeKooler/EPIC",
     },
     {
       imgsrc: Fckly,
       name: "Fckly Bird",
       details:
         "The angry bird like game pack with a challenging shooting style along with crazy fun items made by Unity C#",
+      link: "https://github.com/JoeKooler/FxcklyBird",
     },
     {
       imgsrc: GISAVIA,
       name: "GISAVIA Air Navigation Coverage",
       details:
         "An aircraft coverage analysis using a line-of-sight with multi angle to analyze the signal coverage in the area using Java as a backend and CesiumJS as a data visualizer",
+      link: "",
     },
   ];
 

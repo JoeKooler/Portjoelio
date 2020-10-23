@@ -18,7 +18,7 @@ export function TeamComponents({ imgsrc, name, details }) {
   );
 }
 
-export default function CardComponents({ imgsrc, name, details }) {
+export default function CardComponents({ imgsrc, name, details, link }) {
   const [hoverOpacity, setHoverOpacity] = useState(100);
   const [buttonOpactiy, setButtonOpacity] = useState(0);
   return (
@@ -26,7 +26,9 @@ export default function CardComponents({ imgsrc, name, details }) {
       <div className="max-w-sm rounded overflow-hidden shadow-lg m-5">
         <div className="bg-black relative">
           <img
-            className={"w-full duration-500 opacity-" + hoverOpacity}
+            className={
+              "w-full h-56 duration-500 object-cover opacity-" + hoverOpacity
+            }
             src={imgsrc}
             onMouseEnter={() => {
               setButtonOpacity(100);
@@ -38,7 +40,7 @@ export default function CardComponents({ imgsrc, name, details }) {
             }}
             alt="rip"
           />
-          <button
+          <a
             className={
               "absolute bg-transparent text-white font-semibold py-2 px-4 border border-white rounded top-1/2 left-1/2 duration-500 opacity-" +
               buttonOpactiy +
@@ -47,14 +49,16 @@ export default function CardComponents({ imgsrc, name, details }) {
             style={{
               WebkitTransform: "translate(-50%,-50%)",
               transform: "translate(-50%,-50%)",
+              cursor: "pointer",
             }}
             onMouseEnter={() => {
               setButtonOpacity(100);
               setHoverOpacity(50);
             }}
+            href={link}
           >
             Learn More
-          </button>
+          </a>
         </div>
         <div className="px-6 py-4">
           <div className="text-gray-700 font-bold text-xl mb-2">{name}</div>
