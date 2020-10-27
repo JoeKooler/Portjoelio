@@ -53,7 +53,7 @@ export default function Homepage() {
       name: "GISAVIA Air Navigation Coverage",
       details:
         "An aircraft coverage analysis using a line-of-sight with multi angle to analyze the signal coverage in the area using Java as a backend and CesiumJS as a data visualizer",
-      link: "",
+      link: "https://github.com/JoeKooler/GISTDA-Airnav",
     },
   ];
 
@@ -143,6 +143,7 @@ export default function Homepage() {
             imgsrc={project.imgsrc}
             name={project.name}
             details={project.details}
+            link={project.link}
           />
         ))}
       </div>

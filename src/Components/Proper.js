@@ -11,10 +11,7 @@ export default function Proper() {
     <div>
       <div className="spacer h-20 bg-gray-800"></div>
       <div className="flex w-full justify-center">
-        <div
-          className="flex flex-wrap mb-4 justify-center"
-          style={{ width: "80%" }}
-        >
+        <div className="flex flex-wrap mb-4 justify-center width-4/5">
           {projects.map((project) => (
             <CardComponents
               imgsrc={project.imgsrc}

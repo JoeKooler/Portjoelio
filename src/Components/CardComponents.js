@@ -21,6 +21,7 @@ export function TeamComponents({ imgsrc, name, details }) {
 export default function CardComponents({ imgsrc, name, details, link }) {
   const [hoverOpacity, setHoverOpacity] = useState(100);
   const [buttonOpactiy, setButtonOpacity] = useState(0);
+
   return (
     <div>
       <div className="max-w-sm rounded overflow-hidden shadow-lg m-5">

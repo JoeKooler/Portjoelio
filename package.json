@@ -21,9 +21,6 @@
     "eject": "react-scripts eject",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css -w"
-
-      
-
   },
   "eslintConfig": {
     "extends": "react-app"

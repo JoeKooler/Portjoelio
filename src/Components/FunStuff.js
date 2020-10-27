@@ -24,8 +24,12 @@ export default function FunStuff() {
       name: "Fxckly Bird",
       link: "https://github.com/JoeKooler/FxcklyBird",
     },
-    { imgsrc: FckingBall, name: "Fxcking Ball" },
-    { imgsrc: Medon, name: "Medon Adventure" },
+    {
+      imgsrc: FckingBall,
+      name: "Fxcking Ball",
+      link:
+        "https://drive.google.com/file/d/16jvgd6Z9aHjKkaMgTqmp4M1_IHAO6zbR/view?fbclid=IwAR37UjjTd_nc5qS-GWahvjbxuzxMvVFkqC2_lKJQSF-aWYnFkITxeP3UPiU",
+    },
     {
       imgsrc: Meowmer,
       name: "Mr.Meowmer",
@@ -37,7 +41,12 @@ export default function FunStuff() {
       link:
         "https://drive.google.com/file/d/1R7Ps-_wdhCnP_TXKSY5IEYe0Nap_S5DT/view?usp=sharing",
     },
-    { imgsrc: CR, name: "Crxsh Rxyale" },
+    {
+      imgsrc: CR,
+      name: "Siam Arena 2077",
+      link:
+        "https://drive.google.com/file/d/15D-9hHxJSiNRBf7oQY9aHLWdjl9RIPHh/view?usp=sharing",
+    },
     {
       imgsrc: Risa,
       name: "Homesick Riza",
@@ -48,12 +57,41 @@ export default function FunStuff() {
       name: "Number racer",
       link: "https://github.com/JoeKooler/guess-number-game",
     },
-    { imgsrc: CC, name: "Custom Carousel Component" },
-    { imgsrc: BIGTU, name: "Game Review UI Design" },
-    { imgsrc: ModelPic, name: "Assasins Creed Lowpoly Model" },
-    { imgsrc: LowpolyMap, name: "Lowpoly FPS Map" },
-    { imgsrc: Bomber, name: "Startale Bomber Drawing" },
-    { imgsrc: KENDORS, name: "KENDORS" },
+    {
+      imgsrc: CC,
+      name: "Custom Carousel Component",
+      link:
+        "https://github.com/JoeKooler/Portjoelio/blob/master/src/Components/CustomCarousel.js",
+    },
+    {
+      imgsrc: BIGTU,
+      name: "Game Review UI Design",
+      link:
+        "https://drive.google.com/file/d/1SXaRW68sQvhDQAF6PLnf5b16icrqcW2a/view?usp=sharing",
+    },
+    {
+      imgsrc: ModelPic,
+      name: "Assasins Creed Lowpoly Model",
+      link: "https://youtu.be/ivSpfdB01_4",
+    },
+    {
+      imgsrc: LowpolyMap,
+      name: "Lowpoly FPS Map",
+      link:
+        "https://drive.google.com/file/d/16V_esk_Xy_3edqwTXP3sZTCB5x7kBCrF/view?usp=sharing",
+    },
+    {
+      imgsrc: Bomber,
+      name: "Startale Bomber Drawing",
+      link:
+        "https://drive.google.com/file/d/1Lw4x-gKKLnrvm1LQLnMp6JlZ85RYldSp/view?usp=sharing",
+    },
+    {
+      imgsrc: KENDORS,
+      name: "KENDORS",
+      link:
+        "https://drive.google.com/file/d/1UfeZWg1a-VHFECx85eLz0TWkIYLlNolj/view?usp=sharing",
+    },
   ];
 
   return (
