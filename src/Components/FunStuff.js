@@ -20,6 +20,21 @@ import KENDORS from "../Assets/kendors.png";
 export default function FunStuff() {
   const projects = [
     {
+      imgsrc: "https://i.imgur.com/mUxeAr5.png",
+      name: "Sawasdee wan-chan bot",
+      link: "https://github.com/JoeKooler/Sawasdee-Wanchan-Bot  ",
+    },
+    {
+      imgsrc: "https://i.imgur.com/P2PH6LB.jpg",
+      name: "Daily Dog",
+      link: "https://github.com/JoeKooler/Daily-Dog/tree/main",
+    },
+    {
+      imgsrc: "https://i.imgur.com/dEFVTQ4.jpg",
+      name: "Line Todo",
+      link: "https://github.com/JoeKooler/Line-Todo",
+    },
+    {
       imgsrc: Fckly,
       name: "Fxckly Bird",
       link: "https://github.com/JoeKooler/FxcklyBird",
